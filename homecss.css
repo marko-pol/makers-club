@@ -1,0 +1,47 @@
+
+
+*{
+  margin-top: 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 45px;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+h1 {
+  margin: inherit;
+  padding: 20px 20px 20px 20px;
+  color: #EAECEE;
+  font-size: 50px;
+  font-family: inherit;
+  background-color: #273746;
+  border-radius: 35px;
+}
+
+hr {
+  margin: inherit;
+  padding: inherit;
+  size: 5px;
+  color: #2471A3;
+}
+
+.homebackground {
+  margin: inherit;
+}
+
+body {
+  background-image: url('homebackground2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+p {
+  margin: inherit;
+  padding: 20px 20px 20px 20px;
+  border-radius: 35px;
+  color:#D5D8DC;
+  font-size: 35px;
+  font-family: inherit;
+  background-color: #273746;
+}
