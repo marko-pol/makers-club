@@ -1,13 +1,80 @@
+ /* */
+ /*The main colors for the website are:  #EAECEE(WHITE), #273746(the weird grey background)*/
 
 
-*{
-  margin-top: 45px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 45px;
-  font-family: Trebuchet MS, sans-serif;
+
+/*This is the main css for the body of the page, showing off what the backgroun is and sizing it*/
+body {
+ background-image: url('homebackground2.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ font-family: Trebuchet MS, sans-serif;
 }
 
+.header-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #273746;
+  padding: 5px;
+  border-radius: 35px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+
+}
+
+nav li {
+  float: left;
+  margin-left: 70px;
+  padding-top: 22px;
+}
+
+nav a {
+  color: #EAECEE;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+nav a:hover {
+  color: #D0D3D4;
+}
+
+.container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+
+}
+
+ /*the css for the main title on the website on the home page*/
 h1 {
   margin: inherit;
   padding: 20px 20px 20px 20px;
@@ -16,26 +83,10 @@ h1 {
   font-family: inherit;
   background-color: #273746;
   border-radius: 35px;
+  margin-bottom: 15px;
 }
 
-hr {
-  margin: inherit;
-  padding: inherit;
-  size: 5px;
-  color: #2471A3;
-}
-
-.homebackground {
-  margin: inherit;
-}
-
-body {
-  background-image: url('homebackground2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-
+/*Styles for the paragraph below the main website title*/
 p {
   margin: inherit;
   padding: 20px 20px 20px 20px;
